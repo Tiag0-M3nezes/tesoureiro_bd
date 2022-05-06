@@ -1,0 +1,80 @@
+.sidenav {
+    background-color: #333854;
+    width: 8%;
+    height: 100%;
+    display: inline-block;
+
+    #logout {
+        position: absolute;
+        bottom: 0;
+        color: rgb(192, 192, 192);
+    }
+}
+
+.content {
+    padding: 16px;
+    background-color: #FFF;
+}
+
+
+.logo {
+    height: 180px;
+}
+
+a {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.logout {
+    align-items: center;
+    color: rgb(192, 192, 192) ;
+}
+
+span {
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+.link{
+    color: rgb(192, 192, 192);
+}
+
+.rota {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    width: 100%;
+
+    i {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+.active{
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1260px) {
+    .sidenav {
+        background-color: #333854;
+        width: 6%;
+
+        span {
+            display: none;
+        }
+    }
+
+    .rota {
+        margin: 0 auto;
+    }
+
+    .logout-container {
+        right: 12%;
+    }
+
+
+}

@@ -1,0 +1,27 @@
+<div class="display">
+    <h2>Perfil</h2>
+    
+    <form [formGroup]="userProfileForm" (ngSubmit)="onSubmit()">
+        <label for="">
+            First Name: <input type="text" formControlName="firstName">
+        </label>
+        <label for="">
+            Last Name: <input type="text" formControlName="lastName">
+        </label>
+        <label for="">
+            Age : <input type="text" formControlName="age">
+        </label>
+        <label for="">
+            Email : <input type="text" formControlName="email" [formControl]="email">
+            <!-- <p>display : {{ dados.email }} </p> -->
+        </label>
+
+        <button type="Submit">Submeter</button>
+    </form>
+
+    <div class="c-dados bg-green-100 w-6 h-6rem ml-auto mr-auto mt-6 block" >
+        <mat-form-field appearance="outline" class="flex justify-content-center" >
+            <input matInput>
+          </mat-form-field>
+    </div>
+</div>

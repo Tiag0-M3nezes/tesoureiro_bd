@@ -1,0 +1,34 @@
+{
+    "login": [
+        {
+            "id": 1,
+            "name": "Coelba",
+            "email": "22/09/2002"
+        },
+        {
+            "id": 2,
+            "name": "Pastelaria",
+            "email": "22/09/2002"
+        },
+        {
+            "id": 3,
+            "name": "Casas Acre",
+            "email": "22/09/2002"
+        },
+        {
+            "id": 4,
+            "name": "Steam",
+            "email": "22/09/2002"
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "name": "luca",
+            "email": "lucareli013@gmail.com",
+            "password": "luca2020reli",
+            "saudo": 200,
+            "apelido": "Luca"
+        }
+    ]
+}

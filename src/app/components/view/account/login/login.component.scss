@@ -1,0 +1,65 @@
+.login-container {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.name {
+    width: 100%;
+    display: block;
+}
+
+.inputs {
+    display: block;
+    width: 140%;
+    height: auto;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+.entrar {
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #576fd1;
+    color: white;
+    width: 100%;
+}
+
+.criar {
+    display: inline-block;
+}
+
+#forget {
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #576fd1;
+}
+
+#cadastro {
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    width: auto;
+    padding: 0;
+    color: #576fd1;
+}
+
+#txt-cadastro {
+    font-size: 13px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+
+}
+
+.titulo {
+    h2 {
+        color: #576fd1;
+        font-size: 22px;
+    }
+}

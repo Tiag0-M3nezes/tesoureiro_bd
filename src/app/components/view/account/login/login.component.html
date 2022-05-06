@@ -1,0 +1,32 @@
+<div class="login-container">
+    <div class="titulo">
+        <h2>Login</h2>
+    </div>
+
+
+
+    <div class="inputs">
+        <div class="name">
+            <mat-form-field appearance="legacy">
+                <mat-label>Email</mat-label>
+                <input [(ngModel)]="usuario.email" matInput placeholder="">
+            </mat-form-field>
+        </div>
+
+        <div class="senha">
+            <mat-form-field appearance="legacy">
+                <mat-label>Senha</mat-label>
+                <input [(ngModel)]="usuario.senha" matInput placeholder="" type="password">
+            </mat-form-field>
+        </div>
+
+        <button mat-button color="primary" class="entrar" (click)="fazerLogin()">entrar</button>
+
+        <a href="" id="forget" routerLink="/cadastrar">Esqueceu a Senha?</a>
+
+        <p id="txt-cadastro">Você não tem uma conta Tesoureiso? <button id="cadastro"
+                (click)="cadastrar()">Cadastre-se</button>
+        </p>
+
+    </div>
+</div>

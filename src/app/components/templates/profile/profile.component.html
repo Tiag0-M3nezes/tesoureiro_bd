@@ -1,0 +1,20 @@
+<div class="perfil-container">
+    <div class="c-ola" *ngFor="let usuario of usuario">
+        <h2><span>Olá {{usuario.apelido}}!</span></h2>
+    </div>
+
+    <div class="c-perfil">
+        <div c-button-perfil>
+            <button id="button-perfil" mat-button [matMenuTriggerFor]="menu" *ngFor="let usuario of usuario">
+                <mat-icon id="perfil">person</mat-icon>
+                <span>{{usuario.name}}</span>
+                <i class="material-icons">keyboard_arrow_down</i>
+            </button>
+
+            <mat-menu #menu="matMenu">
+                <button mat-menu-item routerLink="/perfil">Ver Perfil</button>
+            </mat-menu>
+
+        </div>
+    </div>
+</div>
